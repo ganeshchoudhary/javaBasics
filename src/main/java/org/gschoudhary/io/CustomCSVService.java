@@ -7,21 +7,6 @@ import lombok.Setter;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 
-@Getter
-@Setter
-@AllArgsConstructor
-class Agent {
-    private String name;
-
-    private int age;
-
-    private String address;
-
-    @Override
-    public String toString() {
-        return name + ',' + age + "," + address + "\tमैं भूखा हूँ।\uD83D\uDE00";
-    }
-}
 public class CustomCSVService {
     public static void fileWrite(Agent agent) throws IOException {
         System.out.println("ganesh ".getBytes(StandardCharsets.UTF_8));

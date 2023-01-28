@@ -4,29 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4e8432-6935-425b-b173-70f536e19544" name="Changes" comment="initial commit.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/generics/GenericService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/generics/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/io/CustomCSVService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/io/FileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/io/ReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/io/SocketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/java8/LambdaFunctionsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/java8/OptionalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/network/SocketClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/network/SocketServerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/utils/WrapperClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/utils/annotations/AnnotationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/utils/annotations/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/utils/annotations/ImportantClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/utils/serialization/SerializationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/utils/serialization/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gschoudhary/collection/list/ListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/collections/list/ListService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gschoudhary/collection/queue/QueueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/collections/queue/QueueService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gschoudhary/collection/set/SetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/collections/set/SetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gschoudhary/map/MapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/collections/map/MapService.java" afterDir="false" />
+    <list default="true" id="5f4e8432-6935-425b-b173-70f536e19544" name="Changes" comment="java collections and io are done.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/utils/Greeting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/gschoudhary/utils/UtilityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gschoudhary/utils/UtilityService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,33 +60,7 @@
       <recent name="org.gschoudhary.network" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileService">
-    <configuration name="CustomCSVService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.gschoudhary.io.CustomCSVService" />
-      <module name="Java-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.gschoudhary.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.gschoudhary.io.FileService" />
-      <module name="Java-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.gschoudhary.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.org.gschoudhary.io.FileService">
     <configuration name="SocketClientService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.gschoudhary.network.SocketClientService" />
       <module name="Java-examples" />
@@ -134,7 +87,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="org.gschoudhary.io.CustomCSVService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.gschoudhary.io.CustomCSVService" />
+      <module name="Java-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.gschoudhary.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.gschoudhary.io.FileService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.gschoudhary.io.FileService" />
+      <module name="Java-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.gschoudhary.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.gschoudhary.io.SocketService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.gschoudhary.io.SocketService" />
       <module name="Java-examples" />
       <extension name="coverage">
@@ -149,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileService" />
-        <item itemvalue="Application.CustomCSVService" />
+        <item itemvalue="Application.org.gschoudhary.io.FileService" />
+        <item itemvalue="Application.org.gschoudhary.io.CustomCSVService" />
         <item itemvalue="Application.SocketClientService" />
         <item itemvalue="Application.SocketServerService" />
-        <item itemvalue="Application.SocketService" />
+        <item itemvalue="Application.org.gschoudhary.io.SocketService" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674450730370</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="java collections and io are done.">
+      <created>1674904543098</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674904543098</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +175,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit." />
+    <MESSAGE value="java collections and io are done." />
+    <option name="LAST_COMMIT_MESSAGE" value="java collections and io are done." />
   </component>
 </project>
