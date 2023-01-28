@@ -1,4 +1,4 @@
-package org.gschoudhary.map;
+package org.gschoudhary.collections.map;
 
 import java.util.*;
 
@@ -32,7 +32,7 @@ public class MapService {
         HashMap is non-syncronized and is not thread safe while HashTable is thread safe and is synchronized.
         HashMap allows one null key and values can be null whereas HashTable doesn't allow null key or value.
         HashMap is faster than HashTable.
-         HashMap iterator is fail-safe where HashTable iterator is not fail-safe.
+        HashMap iterator is fail-safe where HashTable iterator is not fail-safe.
          */
 
 

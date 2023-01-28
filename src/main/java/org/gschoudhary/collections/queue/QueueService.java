@@ -1,4 +1,4 @@
-package org.gschoudhary.collection.queue;
+package org.gschoudhary.collections.queue;
 
 import java.util.*;
 

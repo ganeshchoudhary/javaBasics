@@ -1,4 +1,4 @@
-package org.gschoudhary.collection.list;
+package org.gschoudhary.collections.list;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;

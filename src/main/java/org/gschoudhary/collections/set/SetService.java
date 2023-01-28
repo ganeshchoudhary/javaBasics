@@ -1,4 +1,4 @@
-package org.gschoudhary.collection.set;
+package org.gschoudhary.collections.set;
 import java.util.*;
 
 public class SetService {
